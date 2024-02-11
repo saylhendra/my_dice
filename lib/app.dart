@@ -9,11 +9,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       title: 'My Dice',
       theme: ThemeData(
-        colorScheme: ColorScheme.fromSeed(
-          seedColor: const Color.fromARGB(255, 115, 0, 238),
-          // primary: const Color.fromARGB(255, 238, 52, 0),
-          secondary: const Color(0xFF03DAC6),
-        ),
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.purple),
         useMaterial3: true,
       ),
       // home: const HomeScreen(),
